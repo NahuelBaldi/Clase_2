@@ -1,0 +1,129 @@
+/* Estilos CSS */
+body{
+
+    font-family: 'Courier New',Arial, Helvetica, sans-serif;/* aca traemos el tipo de letra*/
+
+    margin:0% ;
+    padding: 0%;
+    background-color: beige;
+}
+h1{
+    margin-top: 10px;
+    color:darkgoldenrod;
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: darksalmon;
+    padding: 20px;
+    text-align: center;
+
+}
+nav{
+    background-color: dimgrey;
+    color: beige;
+    height: 60px;
+    display: flex;/*para hacer fexible el contenedor */
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 2%;
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: auto;
+    display: flex;
+    margin-right: 10%;
+
+}
+nav a {
+    color: darkkhaki;
+    text-decoration: none;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: none;
+}
+h2{
+    margin-top: 10px;
+    color:darkgoldenrod;
+    text-align: center;
+}
+/*Forma de llamar a los ID*/
+#content{
+    padding: 5%;
+}
+/*Forma de llamar por clases*/
+.movies_container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.movies{
+    flex-basis: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: coral;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer{
+    background-color: bisque;
+    
+
+}
+iframe{
+    margin-left: 50px;
+    
+}
+
+.movies h3{
+    color:bisque;
+    
+}
+.movies img{
+    width: 40;
+    height: auto;
+}
+.movies p{
+    color: blueviolet;
+}
+/*       form     */
+
+header{
+    margin-left:15% ;
+    margin-right: 15%;
+}
+h2{
+    font-size: 20px
+}
+form{
+    max-width: 400%;
+    margin: 0 auto;
+}
+label{
+    display:block;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgb(247, 182, 60)
+}
+div{
+    margin-right: 20px;
+}
+button{
+    display: block;
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: backgrpund-color 0.3ms;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: brown;
+}
